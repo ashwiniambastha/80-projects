@@ -1,0 +1,11 @@
+Column,Definition
+carat,"The weight of the diamond, measured in carats. One carat equals 0.2 grams."
+cut,"A quality grade describing the cut of the diamond, affecting sparkle. Levels: Fair, Good, Very Good, Premium, Ideal."
+color,"A quality grade describing the diamond's color, with D (best/colorless) to J (more yellow tint)."
+clarity,"Quality grade describing internal/external flaws. Categories: IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1."
+depth,"Total depth as a percentage of average diameter, (z / mean(x, y)) * 100."
+table,"Width of table (flat top) as a percentage of average diameter, (table / mean(x, y)) * 100."
+x,Length of the diamond in millimeters (mm).
+y,Width of the diamond in millimeters (mm).
+z,Depth (height) of the diamond in millimeters (mm).
+price,Price of the diamond in US dollars.
