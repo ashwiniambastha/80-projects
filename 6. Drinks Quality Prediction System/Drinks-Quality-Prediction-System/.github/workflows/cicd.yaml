@@ -1,4 +1,4 @@
-name: workflow
+name: Deploy Application Docker Image to AWS EC2 instance
 
 on:
   push:
