@@ -3,3 +3,4 @@ YT_SEO_INSIGHTS_GEN.egg-info/
 logs/
 .yt/
 test.py
+.env

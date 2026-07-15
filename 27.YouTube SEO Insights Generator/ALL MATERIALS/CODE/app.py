@@ -20,10 +20,10 @@ st.write("AI Generated Tags , Audience Analysis , Timestamps AI Generated , Flaw
 
 with st.sidebar:
     st.header("API Settings")
-    api_key = st.text_input("Open AI Api Key" , type="password")
+    api_key = st.text_input("Groq Api Key" , type="password")
 
     if api_key:
-        os.environ["OPENAI_API_KEY"] = api_key
+        os.environ["GROQ_API_KEY"] = api_key
         logger.info("API Key added to environment variables")
 
 st.divider()
@@ -50,7 +50,7 @@ if url:
         st.image(metadata['thumbnail_url'], width=400)
 
         if st.button("Generate Insights"):
-            if not os.getenv("OPENAI_API_KEY"):
+            if not os.getenv("GROQ_API_KEY"):
                 st.error("Add the API Key First")
 
             with st.spinner("Analyzing with AI....."):
