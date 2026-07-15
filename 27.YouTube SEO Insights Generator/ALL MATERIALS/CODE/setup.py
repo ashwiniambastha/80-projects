@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 setup(
     name= "YT SEO INSIGHTS GEN",
     version= "1.0.0",
-    author= "Sudhanshu",
+    author= "Ashwini",
     packages=find_packages(),
     install_requires=requirements,
 )
