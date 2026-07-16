@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from pypdf import PdfReader
 from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 
 from src.common.logger import get_logger
 from src.common.custom_exception import CustomException
@@ -76,7 +77,7 @@ class ResumeAnalysisAgent:
         try:
             self.logger.info("Extracting skills from JD")
 
-            llm = ChatOpenAI(model="gpt-4.1-mini" , temperature=0)
+            llm = ChatGroq(model="openai/gpt-oss-120b" , temperature=0)
 
             prompt = """
                 Extract only technical skills from the given job description.
@@ -109,7 +110,7 @@ class ResumeAnalysisAgent:
         try:
             self.logger.info(f"Evaluating skill {skill}")
 
-            llm = ChatOpenAI(model="gpt-4.1-mini" , temperature=0)
+            llm = ChatGroq(model="openai/gpt-oss-120b" , temperature=0)
 
             prompt=f"""
                 Evaluate how clearly the resume shows proficiency in "{skill}".
