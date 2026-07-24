@@ -22,7 +22,7 @@ class JobAnlayzerApp:
             st.warning("Please enter the OpenAI API key first")
             st.stop()
 
-        os.environ["OPENAI_API_KEY"] = api_key
+        os.environ["GROQ_API_KEY"] = api_key
 
         resume = self.ui.upload_resume()
         jd = self.ui.upload_jd()

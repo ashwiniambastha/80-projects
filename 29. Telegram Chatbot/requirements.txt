@@ -1,0 +1,5 @@
+pydantic>=2.0,<3.0
+mem0ai
+python-dotenv
+aiogram
+langchain-groq

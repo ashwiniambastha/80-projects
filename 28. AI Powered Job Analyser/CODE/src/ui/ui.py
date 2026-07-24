@@ -10,7 +10,7 @@ class JobAnalyzerUI:
     def sidebar(self):
         with st.sidebar:
             st.header("API Key configuration")
-            return st.text_input("Open AI API Key Here" , type="password")
+            return st.text_input("GROQ AI API Key Here" , type="password")
         
     def upload_resume(self):
         st.subheader("Upload Resume")
