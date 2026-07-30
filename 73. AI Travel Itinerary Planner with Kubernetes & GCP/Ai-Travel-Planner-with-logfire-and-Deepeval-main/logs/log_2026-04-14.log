@@ -1,0 +1,61 @@
+ agent response into TravelPlan model
+2026-04-14 10:01:17,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 10:01:17,567 - INFO - RESPONSE GENERATED
+2026-04-14 13:02:19,906 - INFO - CONFIG INITIALIZED
+2026-04-14 13:02:19,910 - INFO - TAVILY TOOL ALL SET
+2026-04-14 13:02:19,930 - INFO - SERPER TOOL ALL SET
+2026-04-14 13:02:21,696 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-14 13:03:16,717 - WARNING - Attempting to instrument while already instrumented
+2026-04-14 13:03:16,723 - INFO - Travel Planner initialized
+2026-04-14 13:03:19,350 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-14 13:03:20,179 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:03:20,227 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-14 13:03:22,231 - INFO - Tavily Search Tool called with query: Mumbai weather in May 2026
+2026-04-14 13:03:22,233 - INFO - Tavily Search Tool called with query: best beaches in Mumbai
+2026-04-14 13:03:22,239 - INFO - Tavily Search Tool called with query: night clubs in Mumbai
+2026-04-14 13:03:22,244 - INFO - Tavily Search Tool called with query: mid-range restaurants in Mumbai
+2026-04-14 13:03:22,250 - INFO - Tavily Search Tool called with query: Mumbai tourist attractions
+2026-04-14 13:03:22,255 - INFO - Google Serper Search Tool called with query: Mumbai events in May 2026
+2026-04-14 13:03:22,257 - INFO - Tavily Search Tool called with query: local tips for traveling in Mumbai
+2026-04-14 13:03:22,263 - INFO - Tavily Search Tool called with query: accommodation options in Mumbai for mid-range budget
+2026-04-14 13:03:28,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:03:28,354 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-14 13:03:30,355 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-14 13:03:35,357 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai weather in May 2026'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best beaches in Mumbai'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'night clubs in Mumbai'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'mid-range restaurants in Mumbai'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai tourist attractions'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Mumbai events in May 2026'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'local tips for traveling in Mumbai'}
+2026-04-14 13:03:35,358 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'accommodation options in Mumbai for mid-range budget'}
+2026-04-14 13:03:35,358 - INFO - Structuring the agent response into TravelPlan model
+2026-04-14 13:03:35,410 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-14 13:03:35,410 - INFO - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2026-04-14 13:03:47,461 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-14 13:03:47,461 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-14 13:03:51,611 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:03:51,732 - INFO - RESPONSE GENERATED
+2026-04-14 13:05:17,332 - WARNING - Attempting to instrument while already instrumented
+2026-04-14 13:05:17,338 - INFO - Travel Planner initialized
+2026-04-14 13:05:17,340 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-14 13:05:18,490 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:05:18,508 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-14 13:05:20,511 - INFO - Tavily Search Tool called with query: Manali luxury travel tips April 2026
+2026-04-14 13:05:20,514 - INFO - Tavily Search Tool called with query: Manali trekking routes April 2026
+2026-04-14 13:05:20,518 - INFO - Tavily Search Tool called with query: Manali night clubs April 2026
+2026-04-14 13:05:20,522 - INFO - Tavily Search Tool called with query: Manali food suggestions April 2026
+2026-04-14 13:05:20,527 - INFO - Google Serper Search Tool called with query: Manali luxury hotels April 2026
+2026-04-14 13:05:20,531 - INFO - Google Serper Search Tool called with query: Manali weather forecast April 2026
+2026-04-14 13:05:24,724 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:05:24,733 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-14 13:05:26,733 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-14 13:05:31,736 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Manali luxury travel tips April 2026'}
+2026-04-14 13:05:31,736 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Manali trekking routes April 2026'}
+2026-04-14 13:05:31,736 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Manali night clubs April 2026'}
+2026-04-14 13:05:31,736 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Manali food suggestions April 2026'}
+2026-04-14 13:05:31,736 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Manali luxury hotels April 2026'}
+2026-04-14 13:05:31,736 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Manali weather forecast April 2026'}
+2026-04-14 13:05:31,736 - INFO - Structuring the agent response into TravelPlan model
+2026-04-14 13:05:33,149 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 13:05:33,169 - INFO - RESPONSE GENERATED

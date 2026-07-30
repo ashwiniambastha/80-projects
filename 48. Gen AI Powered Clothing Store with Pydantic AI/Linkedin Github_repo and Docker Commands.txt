@@ -1,0 +1,37 @@
+LETS CONNECT ON LINKEDIN : https://www.linkedin.com/in/dhackmt/
+
+
+Project GitHub Repository link: https://github.com/d-hackmt/ecomerce-pydantic-ai
+
+
+Pydantic AI basics repo : https://github.com/d-hackmt/pydantic-ai-crash-course
+
+
+DOCKER COMMANDS : 
+
+
+🛠️ Step 1: Install Docker on your self-hosted runner machine
+
+sudo apt update
+sudo apt install -y docker.io
+
+🛠️ Step 2: Start Docker
+
+sudo systemctl start docker
+sudo systemctl enable docker
+
+🛠️ Step 3: Give runner permission to use Docker
+VERY IMPORTANT 👇
+Your runner is running as a user (not root), so Docker will fail unless you do:
+
+
+sudo usermod -aG docker $USER
+newgrp docker
+
+
+
+🛠️ Step 4: Verify
+
+docker --version
+docker ps
+

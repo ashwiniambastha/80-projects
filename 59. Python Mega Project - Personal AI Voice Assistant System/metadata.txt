@@ -1,0 +1,30 @@
+1. Learning Outcome:
+   - Master building voice-controlled AI assistants using Python from scratch.
+   - Learn Speech-to-Text and Text-to-Speech integration using SpeechRecognition, pyttsx3, and gTTS.
+   - Understand how to integrate Large Language Models (Google Gemini) for intelligent conversational AI.
+   - Gain experience in building interactive web applications using Streamlit.
+   - Implement system-level automation using subprocess and OS modules.
+   - Learn to integrate external APIs (Wikipedia, Google Speech, Google Gemini).
+   - Understand structured logging and modular Python project design.
+
+2. What you will build:
+   - A "JARVIS AI Voice Assistant System" capable of executing voice commands for system control, web browsing, music playback, and knowledge retrieval.
+   - A CLI-based Voice Assistant that listens to spoken commands and performs tasks like opening applications, searching Wikipedia, telling jokes, and playing music.
+   - A Multilingual AI Assistant with a Streamlit Web UI powered by Google Gemini 2.5 Flash for intelligent Q&A with audio response generation.
+   - A complete speech pipeline covering voice input capture, AI processing, and audio output delivery.
+
+3. Prerequisite:
+   - Proficiency in Python programming.
+   - Fundamental understanding of APIs and how to work with external services.
+   - Basic familiarity with Git and command-line tools.
+   - Windows OS (required for SAPI5 text-to-speech engine in Module 1).
+
+4. Technologies:
+   - Programming Language: Python
+   - Speech Recognition: SpeechRecognition, PyAudio, Google Speech API
+   - Text-to-Speech: pyttsx3 (SAPI5), gTTS (Google Text-to-Speech)
+   - AI / LLM: Google Generative AI (Gemini 2.5 Flash)
+   - Web Framework: Streamlit
+   - Knowledge Base: Wikipedia API
+   - System Automation: subprocess, os, webbrowser (Python stdlib)
+   - Logging: Python logging module

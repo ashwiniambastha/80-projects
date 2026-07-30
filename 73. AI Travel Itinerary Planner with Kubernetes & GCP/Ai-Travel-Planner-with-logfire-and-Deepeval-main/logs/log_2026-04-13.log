@@ -1,0 +1,630 @@
+2026-04-13 20:47:42,793 - INFO - CONFIG INITIALIZED
+2026-04-13 20:47:44,893 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:48:01,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:48:17,175 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:48:33,336 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:04:48,626 - INFO - CONFIG INITIALIZED
+2026-04-13 21:04:56,094 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:05:15,195 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:05:32,755 - INFO - CONFIG INITIALIZED
+2026-04-13 21:05:34,962 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:05:36,155 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:05:53,238 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:05:56,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:06:10,282 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:06:27,806 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:07:17,856 - INFO - CONFIG INITIALIZED
+2026-04-13 21:07:17,862 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:07:17,873 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:07:18,856 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:07:18,865 - INFO - Travel Planner initialized
+2026-04-13 21:07:18,881 - ERROR - Planner error: TravelAgentMiddleware.before_agent() missing 1 required positional argument: 'context'
+2026-04-13 21:07:18,893 - ERROR - Planner error: TravelAgentMiddleware.before_agent() missing 1 required positional argument: 'context'
+2026-04-13 21:07:18,900 - ERROR - Planner error: TravelAgentMiddleware.before_agent() missing 1 required positional argument: 'context'
+2026-04-13 21:07:18,908 - ERROR - Planner error: TravelAgentMiddleware.before_agent() missing 1 required positional argument: 'context'
+2026-04-13 21:08:37,759 - INFO - CONFIG INITIALIZED
+2026-04-13 21:08:37,762 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:08:37,778 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:08:38,804 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:09:17,440 - INFO - CONFIG INITIALIZED
+2026-04-13 21:09:17,444 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:09:17,454 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:09:18,468 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:09:18,472 - INFO - Travel Planner initialized
+2026-04-13 21:09:18,487 - INFO - 🎬 Agent Turn Started (Messages: 1)
+2026-04-13 21:09:19,171 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:09:19,243 - INFO - Tavily Search Tool called with query: Paris luxury travel guide June 2026
+2026-04-13 21:09:19,248 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-04-13 21:09:19,256 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-04-13 21:09:19,268 - INFO - Tavily Search Tool called with query: Seine River cruise dinner options in Paris
+2026-04-13 21:09:19,278 - INFO - Google Serper Search Tool called with query: Paris weather forecast June 2026
+2026-04-13 21:09:19,288 - INFO - Google Serper Search Tool called with query: best time to visit Paris in June
+2026-04-13 21:09:19,298 - INFO - Tavily Search Tool called with query: luxury hotels in Paris
+2026-04-13 21:09:19,304 - INFO - Tavily Search Tool called with query: Paris local tips and advice
+2026-04-13 21:09:25,621 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:09:25,668 - INFO - 🏁 Agent Turn Completed
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris luxury travel guide June 2026'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Impressionist art museums in Paris'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Michelin star restaurants in Paris'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruise dinner options in Paris'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris weather forecast June 2026'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'best time to visit Paris in June'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'luxury hotels in Paris'}
+2026-04-13 21:09:25,669 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris local tips and advice'}
+2026-04-13 21:09:25,669 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:09:25,742 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:09:25,743 - INFO - Retrying request to /openai/v1/chat/completions in 18.000000 seconds
+2026-04-13 21:09:46,269 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:10:06,353 - INFO - 🎬 Agent Turn Started (Messages: 12)
+2026-04-13 21:10:06,458 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:10:06,459 - INFO - Retrying request to /openai/v1/chat/completions in 21.000000 seconds
+2026-04-13 21:10:27,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:10:27,501 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:10:28,524 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:10:28,524 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:10:31,852 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:10:31,895 - INFO - Tavily Search Tool called with query: Tokyo robotics and AI hubs October 2026
+2026-04-13 21:10:31,901 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market tour
+2026-04-13 21:10:31,913 - INFO - Tavily Search Tool called with query: Tokyo anime culture October 2026
+2026-04-13 21:10:31,918 - INFO - Google Serper Search Tool called with query: Tokyo weather forecast October 2026
+2026-04-13 21:10:31,924 - INFO - Google Serper Search Tool called with query: best time to visit Tokyo in October
+2026-04-13 21:10:31,935 - INFO - Tavily Search Tool called with query: mid-range hotels in Tokyo
+2026-04-13 21:10:31,941 - INFO - Tavily Search Tool called with query: Tokyo local tips and advice
+2026-04-13 21:10:39,137 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-13 21:10:39,147 - ERROR - Planner error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12512, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:10:39,234 - INFO - 🎬 Agent Turn Started (Messages: 13)
+2026-04-13 21:10:39,317 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:10:39,318 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2026-04-13 21:11:09,362 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:11:09,362 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:11:11,442 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:11:11,485 - INFO - Tavily Search Tool called with query: Mumbai UNESCO Heritage Sites January 2026
+2026-04-13 21:11:11,490 - INFO - Tavily Search Tool called with query: Marine Drive Seafront Mumbai January 2026
+2026-04-13 21:11:11,498 - INFO - Tavily Search Tool called with query: Bollywood Tours Mumbai January 2026
+2026-04-13 21:11:11,504 - INFO - Google Serper Search Tool called with query: Mumbai weather forecast January 2026
+2026-04-13 21:11:11,514 - INFO - Google Serper Search Tool called with query: best time to visit Mumbai in January
+2026-04-13 21:11:11,521 - INFO - Tavily Search Tool called with query: mid-range hotels in Mumbai
+2026-04-13 21:11:11,528 - INFO - Tavily Search Tool called with query: Mumbai local tips and advice
+2026-04-13 21:11:19,199 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-13 21:11:19,214 - ERROR - Planner error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 15378, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:11:19,226 - INFO - 🎬 Agent Turn Started (Messages: 14)
+2026-04-13 21:11:19,314 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:11:19,314 - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2026-04-13 21:11:53,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:11:53,142 - INFO - Tavily Search Tool called with query: Tokyo robotics and AI hubs
+2026-04-13 21:11:53,149 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market tour
+2026-04-13 21:11:53,158 - INFO - Tavily Search Tool called with query: Tokyo anime culture
+2026-04-13 21:11:53,169 - INFO - Tavily Search Tool called with query: mid-range hotels in Tokyo
+2026-04-13 21:11:53,180 - INFO - Google Serper Search Tool called with query: Tokyo weather October 2026
+2026-04-13 21:11:53,192 - INFO - Tavily Search Tool called with query: Mumbai UNESCO Heritage Sites
+2026-04-13 21:11:53,200 - INFO - Tavily Search Tool called with query: Marine Drive Seafront tour
+2026-04-13 21:11:53,206 - INFO - Tavily Search Tool called with query: Bollywood tours in Mumbai
+2026-04-13 21:11:53,213 - INFO - Tavily Search Tool called with query: mid-range hotels in Mumbai
+2026-04-13 21:11:53,219 - INFO - Google Serper Search Tool called with query: Mumbai weather January 2026
+2026-04-13 21:11:53,228 - INFO - Tavily Search Tool called with query: Alleppey Houseboats tour
+2026-04-13 21:11:53,238 - INFO - Tavily Search Tool called with query: Ayurvedic massages in Kerala
+2026-04-13 21:11:53,246 - INFO - Tavily Search Tool called with query: Munnar Tea Plantations tour
+2026-04-13 21:11:53,253 - INFO - Tavily Search Tool called with query: budget hotels in Kerala
+2026-04-13 21:11:53,258 - INFO - Google Serper Search Tool called with query: Kerala weather September 2026
+2026-04-13 21:11:57,707 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-13 21:11:57,717 - ERROR - Planner error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20207, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:16:19,652 - INFO - CONFIG INITIALIZED
+2026-04-13 21:20:16,787 - INFO - CONFIG INITIALIZED
+2026-04-13 21:20:16,792 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:20:16,801 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:20:17,810 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:20:17,814 - INFO - Travel Planner initialized
+2026-04-13 21:20:17,829 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:20:18,572 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:20:18,636 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:20:20,641 - INFO - Tavily Search Tool called with query: Paris June 2026 weather forecast
+2026-04-13 21:20:20,647 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-04-13 21:20:20,655 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-04-13 21:20:20,665 - INFO - Tavily Search Tool called with query: Seine River cruise options in Paris
+2026-04-13 21:20:20,675 - INFO - Tavily Search Tool called with query: luxury hotels in Paris
+2026-04-13 21:20:20,681 - INFO - Google Serper Search Tool called with query: Paris June 2026 events and festivals
+2026-04-13 21:20:27,711 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:20:27,739 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:20:29,747 - INFO - Tavily Search Tool called with query: Paris weather forecast June 2026
+2026-04-13 21:20:29,752 - INFO - Tavily Search Tool called with query: best Impressionist art museums in Paris
+2026-04-13 21:20:29,759 - INFO - Tavily Search Tool called with query: top Michelin star restaurants in Paris
+2026-04-13 21:20:29,763 - INFO - Tavily Search Tool called with query: Seine River cruise options in Paris
+2026-04-13 21:20:29,769 - INFO - Tavily Search Tool called with query: luxury hotels in Paris
+2026-04-13 21:20:29,772 - INFO - Google Serper Search Tool called with query: Paris events and festivals June 2026
+2026-04-13 21:20:34,397 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:20:34,398 - INFO - Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2026-04-13 21:20:51,204 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:20:51,235 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:20:53,237 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:20:58,238 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris June 2026 weather forecast'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Impressionist art museums in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Michelin star restaurants in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruise options in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'luxury hotels in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris June 2026 events and festivals'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris weather forecast June 2026'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best Impressionist art museums in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'top Michelin star restaurants in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruise options in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'luxury hotels in Paris'}
+2026-04-13 21:20:58,239 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris events and festivals June 2026'}
+2026-04-13 21:20:58,239 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:20:58,343 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:20:58,343 - INFO - Retrying request to /openai/v1/chat/completions in 49.000000 seconds
+2026-04-13 21:21:50,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:22:20,442 - INFO - 🎬 Agent Turn Started (History: 17 msgs)
+2026-04-13 21:22:20,560 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:22:20,561 - INFO - Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2026-04-13 21:22:44,605 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:22:44,606 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:22:48,766 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:22:48,797 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:22:50,804 - INFO - Tavily Search Tool called with query: Tokyo October 2026 weather forecast
+2026-04-13 21:22:50,814 - INFO - Tavily Search Tool called with query: robotics and AI hubs in Tokyo
+2026-04-13 21:22:50,824 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market guide
+2026-04-13 21:22:50,830 - INFO - Tavily Search Tool called with query: anime culture in Tokyo
+2026-04-13 21:22:50,839 - INFO - Tavily Search Tool called with query: mid-range hotels in Tokyo
+2026-04-13 21:22:50,847 - INFO - Google Serper Search Tool called with query: Tokyo events and festivals October 2026
+2026-04-13 21:22:54,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:22:54,372 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 91475, Requested 17211. Please try again in 2h5m4.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:22:54,387 - INFO - 🎬 Agent Turn Started (History: 18 msgs)
+2026-04-13 21:22:54,479 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:22:54,487 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 91475, Requested 11265. Please try again in 39m27.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:22:54,495 - INFO - 🎬 Agent Turn Started (History: 19 msgs)
+2026-04-13 21:22:54,583 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:22:54,590 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 91475, Requested 11550. Please try again in 43m33.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:28:14,043 - INFO - CONFIG INITIALIZED
+2026-04-13 21:28:14,047 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:28:14,057 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:28:15,030 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:28:15,038 - INFO - Travel Planner initialized
+2026-04-13 21:28:15,045 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:28:15,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:28:15,663 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:28:17,668 - INFO - Tavily Search Tool called with query: Paris luxury travel guide June 2026
+2026-04-13 21:28:17,677 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-04-13 21:28:17,686 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-04-13 21:28:17,693 - INFO - Tavily Search Tool called with query: Seine River cruises in Paris
+2026-04-13 21:28:17,704 - INFO - Google Serper Search Tool called with query: Paris weather forecast June 2026
+2026-04-13 21:28:17,714 - INFO - Google Serper Search Tool called with query: luxury hotels in Paris
+2026-04-13 21:28:23,986 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:28:24,023 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:28:26,023 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:28:31,026 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris luxury travel guide June 2026'}
+2026-04-13 21:28:31,026 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Impressionist art museums in Paris'}
+2026-04-13 21:28:31,026 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Michelin star restaurants in Paris'}
+2026-04-13 21:28:31,027 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruises in Paris'}
+2026-04-13 21:28:31,027 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris weather forecast June 2026'}
+2026-04-13 21:28:31,027 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'luxury hotels in Paris'}
+2026-04-13 21:28:31,027 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:28:31,098 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:28:31,107 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97140, Requested 5701. Please try again in 40m54.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:28:31,116 - INFO - Travel Planner initialized
+2026-04-13 21:28:31,120 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:28:32,304 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:28:32,340 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:28:34,348 - INFO - Tavily Search Tool called with query: Tokyo robotics and AI hubs October 2026
+2026-04-13 21:28:34,358 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market October 2026
+2026-04-13 21:28:34,367 - INFO - Tavily Search Tool called with query: Tokyo anime culture October 2026
+2026-04-13 21:28:34,373 - INFO - Google Serper Search Tool called with query: Tokyo mid-range accommodations October 2026
+2026-04-13 21:28:34,385 - INFO - Google Serper Search Tool called with query: Tokyo travel tips October 2026
+2026-04-13 21:28:34,390 - INFO - Tavily Search Tool called with query: Tokyo food suggestions October 2026
+2026-04-13 21:28:34,398 - INFO - Tavily Search Tool called with query: Tokyo local tips October 2026
+2026-04-13 21:28:34,403 - INFO - Google Serper Search Tool called with query: Tokyo events October 2026
+2026-04-13 21:28:39,940 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:28:39,949 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97790, Requested 7127. Please try again in 1h10m48.287999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:28:39,955 - INFO - Travel Planner initialized
+2026-04-13 21:28:39,959 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:28:40,702 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:28:40,735 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:28:42,740 - INFO - Tavily Search Tool called with query: Mumbai UNESCO Heritage Sites
+2026-04-13 21:28:42,745 - INFO - Tavily Search Tool called with query: Marine Drive Seafront Mumbai
+2026-04-13 21:28:42,753 - INFO - Tavily Search Tool called with query: Bollywood Tours Mumbai
+2026-04-13 21:28:42,761 - INFO - Tavily Search Tool called with query: Mid-range hotels in Mumbai
+2026-04-13 21:28:42,770 - INFO - Tavily Search Tool called with query: Mumbai weather in January
+2026-04-13 21:28:42,778 - INFO - Tavily Search Tool called with query: Mumbai food suggestions
+2026-04-13 21:28:42,783 - INFO - Tavily Search Tool called with query: Local tips for traveling in Mumbai
+2026-04-13 21:28:42,790 - INFO - Google Serper Search Tool called with query: Mumbai 3-day itinerary
+2026-04-13 21:28:42,799 - INFO - Google Serper Search Tool called with query: Best time to visit Mumbai
+2026-04-13 21:28:42,808 - INFO - Google Serper Search Tool called with query: Mumbai travel advice
+2026-04-13 21:28:47,649 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:28:47,661 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k2pz54sqf7r9jw0ctcfzbmsp` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98450, Requested 9166. Please try again in 1h49m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-13 21:28:47,665 - INFO - Travel Planner initialized
+2026-04-13 21:28:47,669 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:28:48,105 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:28:48,129 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:32:24,057 - INFO - CONFIG INITIALIZED
+2026-04-13 21:32:24,063 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:32:24,074 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:32:25,064 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:32:25,074 - INFO - Travel Planner initialized
+2026-04-13 21:32:25,082 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:32:25,918 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:32:25,972 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:32:27,980 - INFO - Tavily Search Tool called with query: Paris luxury travel guide June 2026
+2026-04-13 21:32:27,987 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-04-13 21:32:28,001 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-04-13 21:32:28,012 - INFO - Tavily Search Tool called with query: Seine River cruise dinner options Paris
+2026-04-13 21:32:28,019 - INFO - Google Serper Search Tool called with query: Paris weather forecast June 2026
+2026-04-13 21:32:28,028 - INFO - Google Serper Search Tool called with query: best time to visit Paris in June
+2026-04-13 21:32:28,035 - INFO - Tavily Search Tool called with query: luxury hotels in Paris
+2026-04-13 21:32:28,041 - INFO - Tavily Search Tool called with query: Paris local tips and insights
+2026-04-13 21:32:48,743 - INFO - CONFIG INITIALIZED
+2026-04-13 21:32:48,748 - INFO - TAVILY TOOL ALL SET
+2026-04-13 21:32:48,758 - INFO - SERPER TOOL ALL SET
+2026-04-13 21:32:49,756 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialized.
+2026-04-13 21:32:49,767 - INFO - Travel Planner initialized
+2026-04-13 21:32:49,775 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:32:50,358 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:32:50,414 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:32:52,420 - INFO - Tavily Search Tool called with query: Paris luxury travel guide June 2026
+2026-04-13 21:32:52,426 - INFO - Tavily Search Tool called with query: Impressionist art museums in Paris
+2026-04-13 21:32:52,433 - INFO - Tavily Search Tool called with query: Michelin star restaurants in Paris
+2026-04-13 21:32:52,442 - INFO - Tavily Search Tool called with query: Seine River cruises in Paris
+2026-04-13 21:32:52,454 - INFO - Google Serper Search Tool called with query: Paris weather forecast June 2026
+2026-04-13 21:32:52,462 - INFO - Google Serper Search Tool called with query: best luxury hotels in Paris
+2026-04-13 21:32:58,684 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:32:58,718 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:33:00,719 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:33:05,721 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Paris luxury travel guide June 2026'}
+2026-04-13 21:33:05,721 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Impressionist art museums in Paris'}
+2026-04-13 21:33:05,721 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Michelin star restaurants in Paris'}
+2026-04-13 21:33:05,721 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Seine River cruises in Paris'}
+2026-04-13 21:33:05,721 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Paris weather forecast June 2026'}
+2026-04-13 21:33:05,721 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'best luxury hotels in Paris'}
+2026-04-13 21:33:05,721 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:33:07,369 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:33:52,416 - INFO - Travel Planner initialized
+2026-04-13 21:33:52,420 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:33:52,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:33:53,002 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:33:55,009 - INFO - Tavily Search Tool called with query: Tokyo October 2026 weather forecast
+2026-04-13 21:33:55,016 - INFO - Tavily Search Tool called with query: Tokyo robotics and AI hubs
+2026-04-13 21:33:55,026 - INFO - Tavily Search Tool called with query: Tsukiji Outer Market October 2026
+2026-04-13 21:33:55,033 - INFO - Tavily Search Tool called with query: Tokyo anime culture spots
+2026-04-13 21:33:55,040 - INFO - Tavily Search Tool called with query: mid-range hotels in Tokyo
+2026-04-13 21:33:55,047 - INFO - Tavily Search Tool called with query: Tokyo travel tips and advice
+2026-04-13 21:33:55,053 - INFO - Google Serper Search Tool called with query: Tokyo October 2026 events
+2026-04-13 21:34:01,951 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:34:02,003 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:34:04,005 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:34:09,008 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo October 2026 weather forecast'}
+2026-04-13 21:34:09,008 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo robotics and AI hubs'}
+2026-04-13 21:34:09,008 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tsukiji Outer Market October 2026'}
+2026-04-13 21:34:09,009 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo anime culture spots'}
+2026-04-13 21:34:09,009 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'mid-range hotels in Tokyo'}
+2026-04-13 21:34:09,009 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Tokyo travel tips and advice'}
+2026-04-13 21:34:09,009 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Tokyo October 2026 events'}
+2026-04-13 21:34:09,009 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:34:09,115 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:34:09,115 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:34:16,121 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:35:01,179 - INFO - Travel Planner initialized
+2026-04-13 21:35:01,184 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:35:02,183 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:35:02,213 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:35:04,220 - INFO - Tavily Search Tool called with query: Mumbai UNESCO Heritage Sites
+2026-04-13 21:35:04,227 - INFO - Tavily Search Tool called with query: Marine Drive Seafront activities
+2026-04-13 21:35:04,237 - INFO - Tavily Search Tool called with query: Bollywood Tours in Mumbai
+2026-04-13 21:35:04,241 - INFO - Tavily Search Tool called with query: Mid-range hotels in Mumbai
+2026-04-13 21:35:04,251 - INFO - Tavily Search Tool called with query: Mumbai weather in January
+2026-04-13 21:35:04,259 - INFO - Tavily Search Tool called with query: Mumbai local food and restaurants
+2026-04-13 21:35:04,268 - INFO - Tavily Search Tool called with query: Mumbai local tips and travel advice
+2026-04-13 21:35:04,275 - INFO - Google Serper Search Tool called with query: Mumbai events and festivals in January 2026
+2026-04-13 21:35:10,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:35:10,639 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:35:12,640 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:35:17,642 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai UNESCO Heritage Sites'}
+2026-04-13 21:35:17,642 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Marine Drive Seafront activities'}
+2026-04-13 21:35:17,642 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bollywood Tours in Mumbai'}
+2026-04-13 21:35:17,642 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mid-range hotels in Mumbai'}
+2026-04-13 21:35:17,643 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai weather in January'}
+2026-04-13 21:35:17,643 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai local food and restaurants'}
+2026-04-13 21:35:17,643 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Mumbai local tips and travel advice'}
+2026-04-13 21:35:17,643 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Mumbai events and festivals in January 2026'}
+2026-04-13 21:35:17,643 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:35:17,762 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:35:17,762 - INFO - Retrying request to /openai/v1/chat/completions in 27.000000 seconds
+2026-04-13 21:35:46,608 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:36:31,661 - INFO - Travel Planner initialized
+2026-04-13 21:36:31,666 - INFO - 🎬 Agent Turn Started (History: 1 msgs)
+2026-04-13 21:36:32,306 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:36:32,344 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:36:34,352 - INFO - Tavily Search Tool called with query: Kerala 4-day trip itinerary Alleppey Houseboats Ayurvedic Massages Munnar Tea Plantations budget relaxed September
+2026-04-13 21:36:34,361 - INFO - Google Serper Search Tool called with query: Kerala travel guide September 2026 budget-friendly accommodations and activities
+2026-04-13 21:36:34,370 - INFO - Tavily Search Tool called with query: Alleppey Houseboats prices September 2026
+2026-04-13 21:36:34,377 - INFO - Google Serper Search Tool called with query: Munnar Tea Plantations tour prices September 2026
+2026-04-13 21:36:34,382 - INFO - Tavily Search Tool called with query: Ayurvedic Massages in Kerala prices September 2026
+2026-04-13 21:36:34,391 - INFO - Google Serper Search Tool called with query: Kerala budget-friendly food options September 2026
+2026-04-13 21:36:41,960 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:36:42,001 - INFO - ⏳ Catching breath (2s) for TPM refill...
+2026-04-13 21:36:44,002 - INFO - 🏁 Agent Turn Completed. Cooling down (5s)...
+2026-04-13 21:36:49,004 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Kerala 4-day trip itinerary Alleppey Houseboats Ayurvedic Massages Munnar Tea Plantations budget relaxed September'}
+2026-04-13 21:36:49,005 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Kerala travel guide September 2026 budget-friendly accommodations and activities'}
+2026-04-13 21:36:49,005 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Alleppey Houseboats prices September 2026'}
+2026-04-13 21:36:49,005 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Munnar Tea Plantations tour prices September 2026'}
+2026-04-13 21:36:49,005 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Ayurvedic Massages in Kerala prices September 2026'}
+2026-04-13 21:36:49,005 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Kerala budget-friendly food options September 2026'}
+2026-04-13 21:36:49,005 - INFO - Structuring the agent response into TravelPlan model
+2026-04-13 21:36:50,672 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:40:42,744 - INFO - CONFIG INITIALIZED
+2026-04-13 21:40:44,907 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:40:45,727 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:40:45,800 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:47,914 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:50,032 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:50,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:50,076 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:50,095 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:52,166 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:52,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:52,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:40:52,206 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:14,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:15,784 - INFO - CONFIG INITIALIZED
+2026-04-13 21:41:16,450 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:16,959 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:18,597 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:18,645 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:18,648 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:18,664 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:19,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:20,734 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:20,735 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:20,735 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:20,736 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:20,781 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:21,190 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:21,224 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:21,254 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:23,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:23,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:23,312 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:23,312 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:23,365 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:42,915 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:45,039 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:45,475 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:47,181 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:47,217 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:47,230 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:47,607 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:47,608 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,315 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,315 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,317 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,318 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,382 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:49,814 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:51,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:51,869 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:51,869 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:51,870 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:41:51,922 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:11,509 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:13,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:14,053 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:15,796 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:16,170 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,874 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,878 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,895 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,917 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,925 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:17,926 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:18,308 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:18,352 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,405 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,454 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,456 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,457 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:42:20,498 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:43:05,690 - INFO - CONFIG INITIALIZED
+2026-04-13 21:43:07,595 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:08,249 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:08,771 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:11,998 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:12,458 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:14,288 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:14,668 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:17,377 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:17,656 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:17,726 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:17,853 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:17,999 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:19,392 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:19,525 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:43:19,525 - INFO - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-04-13 21:43:29,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:43:29,577 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:43:33,922 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:36,830 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:43:37,109 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:43:37,110 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:43:39,640 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:02,779 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:03,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:04,282 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:06,424 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:06,425 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:44:07,283 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:12,601 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:12,717 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:12,718 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:44:21,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:21,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:21,403 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:44:26,422 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:26,423 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:44:27,738 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:29,900 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,901 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:44:29,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,928 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:44:29,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,930 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:44:29,931 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,932 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,933 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:29,933 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:44:29,933 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:44:29,934 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:44:31,175 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:31,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:31,928 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:44:33,973 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:33,973 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:44:36,779 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:36,947 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:36,948 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:44:37,014 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:37,015 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:44:37,016 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:37,018 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:37,019 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:44:37,019 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:44:37,596 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:40,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:40,970 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:44:42,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:42,070 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:44:42,386 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:43,056 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:43,057 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:44:44,049 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:46,132 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:47,049 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:47,110 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:44:47,110 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:44:48,606 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:44:53,765 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:16,937 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:17,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:18,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:20,384 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:20,384 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:45:21,505 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:24,456 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:24,536 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:24,537 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:45:32,192 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:32,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:32,295 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:34,684 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:36,865 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,865 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:45:36,937 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,938 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:45:36,939 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,940 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,941 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:36,941 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:45:36,942 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,943 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,944 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:36,944 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:36,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,946 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:36,947 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:36,947 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:37,979 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:37,979 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:45:37,981 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:37,982 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:45:38,592 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:38,972 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:38,974 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:45:38,975 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:38,976 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:45:39,892 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:39,893 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:39,967 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:39,968 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:45:39,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:39,969 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:45:41,919 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:41,920 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:42,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:42,991 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:43,959 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,030 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:46,108 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,108 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,109 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:45:46,124 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,125 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,126 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:46,127 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:46,155 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,155 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:46,157 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:46,158 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:45:47,919 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:45:47,983 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:47,984 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:45:48,369 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:48,392 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:49,128 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:50,001 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:50,001 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:45:50,187 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:45:51,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:15,197 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:16,483 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:17,213 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:19,362 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:19,363 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:46:20,426 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:21,145 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:21,207 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:21,207 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:46:28,968 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:29,273 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:29,273 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:46:31,733 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:33,910 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:33,912 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:46:33,926 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:33,927 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:46:33,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:33,928 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-04-13 21:46:33,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:33,929 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:46:33,932 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:33,932 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:46:34,887 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:34,947 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:34,948 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:46:34,952 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:34,953 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:46:34,953 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:34,954 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:46:35,954 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:35,954 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:46:40,874 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:40,930 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:40,930 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:46:40,974 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:40,975 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-13 21:46:40,994 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:40,994 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-13 21:46:40,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:40,995 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-04-13 21:46:44,025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:46,119 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:46,119 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-13 21:46:46,120 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:46,121 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-13 21:46:46,871 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:47,240 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:48,733 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:48,789 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-13 21:46:48,789 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-04-13 21:46:53,163 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:46:53,183 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

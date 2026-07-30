@@ -1,0 +1,5 @@
+Main Project Repo:
+https://github.com/data-guru0/MLOPS-Project-Code
+
+Jenkins Shared Library Repo
+https://github.com/data-guru0/Jenkins-Shared-Library
