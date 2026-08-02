@@ -1,0 +1,82 @@
+Rank,Project,Category,Difficulty,Level,Priority,Tech/Frameworks,PDF Page
+Rank,Project,Category,Difficulty,Level,Priority,,PDF Page
+1,Power BI Project - Diamonds Dataset (Basic),Data Analytics,1,Beginner,CORE,,6
+2,Power BI Project - Fashion Dataset (Intermediate),Data Analytics,2,Beginner,OPTIONAL,,6
+3,Regional Sales Performance Analysis and Visualization,Data Analytics,2,Beginner,CORE,,11
+4,Telecom Customer Churn Analysis and Dashboarding Project,Data Analytics,2,Beginner,CORE,,6
+5,Solar Energy Data Analysis and Reporting with Power BI & MySQL,Data Analytics,3,Beginner+,OPTIONAL,,5
+6,Drinks Quality Prediction System,Machine Learning,3,Beginner+,CORE,,11
+7,Telecom Customer Churn Prediction,Machine Learning,3,Beginner+,CORE,,6
+8,Facial Emotion Detection System,Deep Learning / CV,4,Beginner+,CORE,,2
+9,Poultry Disease Identification,Deep Learning / CV,4,Beginner+,ALTERNATIVE,,8
+10,2-Stage Loan Approval & Valuation System,Machine Learning,4,Beginner+,OPTIONAL,,6
+11,Academic Risk & Engagement Prediction System,Machine Learning,4,Beginner+,OPTIONAL,,9
+12,Global Mobility Application Analyser,Machine Learning / Analytics,4,Beginner+,OPTIONAL,,12
+13,Discarded Material Identification System,Machine Learning / CV,4,Beginner+,OPTIONAL,,7
+14,Chest Disease Identification,Machine Learning / Medical,4,Beginner+,ALTERNATIVE,,7
+15,Predictive Modeling for Cancer Risk Assessment using Machine Learning,Machine Learning / Medical,4,Beginner+,ALTERNATIVE,,11
+16,End-to-End NexusView Package,Python / Data Science,4,Beginner+,OPTIONAL,,9
+17,Intelligent Timetable Generator,Python / Optimization,4,Beginner+,OPTIONAL,,3
+18,Automated YouTube Mixtape Creation with Python,Python Automation,4,Beginner+,ALTERNATIVE,,11
+19,Books Recommender System,Recommender Systems,4,Beginner+,CORE,,2
+20,Network Security,Cybersecurity,5,Intermediate,SPECIALIZED,,12
+21,Elephant Species Classification using Deep Learning and Transfer Learning,Deep Learning / CV,5,Intermediate,CORE,,6
+22,End-to-End Waste Detection System,Deep Learning / CV,5,Intermediate,CORE,,3
+23,Kidney Tumor Identification System,Deep Learning / CV,5,Intermediate,ALTERNATIVE,,7
+24,Mosquito Detection System - Prevention Use Case,Deep Learning / CV,5,Intermediate,OPTIONAL,,3
+25,Solar Panel Defect Classification using Deep Learning,Deep Learning / CV,5,Intermediate,OPTIONAL,,5
+26,Smart Attendance Portal with Supabase,Full Stack / Database,5,Intermediate,OPTIONAL,,12
+27,YouTube SEO Insights Generator,GenAI / Analytics,5,Intermediate,ALTERNATIVE,"GCP , Docker , MiniKube ,  Jenkins, ArgoCD, Webhoobs GitHub",11
+28,AI-Powered Job Analyser,GenAI / Career,5,Intermediate,ALTERNATIVE,"GCP , Kubnernetes, ELK Stack,",7
+29,Telegram Chatbot,GenAI Application,5,Intermediate,CORE,"AioGram, Docker , Pydantic, Logging, Mem0",4
+30,Medical Diagnosis App,Machine Learning / App,5,Intermediate,ALTERNATIVE,"FastAPI, MCP , Guardrails, Pydantic, Logging, Mem0 ",5
+31,AI-Powered Content Summarisation,NLP / GenAI,5,Intermediate,CORE,CI/CD,2
+32,Social Video Audience Sentiment Intelligence,NLP / Sentiment,5,Intermediate,OPTIONAL,"MLOps, CI/CD , Docker, AWS",12
+33,End-to-End NLP: Text Summarization with Hugging Face Transformers,NLP / Transformers,5,Intermediate,CORE,FineTunning With HuggingFace,7
+34,AI-Powered Anime Recommendation System,Recommender Systems,5,Intermediate,ALTERNATIVE,"GCP VM, MiniKube, StreamLit, Docker, Grafana Cloud , ChromaDB, Kubectl, GitHub Actions, Evaluation",8
+35,Collaborative Filtering Recommendation System,Recommender Systems,5,Intermediate,CORE,"Dockerization, StreamLit",11
+36,Personalized Holiday Management Agent,Agentic AI,6,Intermediate,OPTIONAL,"Python, Microsoft AutoGen, FastAPI, Jinja2, Pydantic, OpenAI GPT-4o, Asyncio, REST APIs, Multi-Agent AI Systems.",4
+37,PCAP StoryTeller,Cybersecurity / GenAI,6,Intermediate,SPECIALIZED,"Python, Scapy, Flask, Folium, REST APIs, Network Packet Analysis, Security Automation, Heuristic Threat Detection.",3
+38,ETL Pipeline with Apache Airflow and PostgreSQL,Data Engineering,6,Intermediate,CORE,,10
+39,Sign Language Detection System for Deaf & Mute Individuals,Deep Learning / CV,6,Intermediate,OPTIONAL,,3
+40,Realtime Source Code Analyser,GenAI / DevTools,6,Intermediate,OPTIONAL,"Python, LangChain, ChromaDB, Flask, Retrieval-Augmented Generation (RAG), Conversational AI, Vector Databases, Embedding Models, REST APIs.",4
+41,End-to-End Medical Chatbot,GenAI / Domain Chatbot,6,Intermediate,ALTERNATIVE,"Python, Flask, Pinecone, Retrieval-Augmented Generation (RAG), Docker, GitHub Actions, AWS, CI/CD, REST APIs.",4
+42,Resume Genie: An AI-Powered Career Suite,GenAI / Full Stack,6,Intermediate,ALTERNATIVE,"Python, Streamlit, AWS EC2, Prompt Engineering, Large Language Models (LLMs), Natural Language Processing (NLP), REST APIs.",7
+43,Knowledge Intelligence System,GenAI / Knowledge Systems,6,Intermediate,OPTIONAL,"Python, LangChain, ChromaDB, Flask, HTML, CSS, AWS S3, Retrieval-Augmented Generation (RAG), REST APIs.",4
+44,DOCRAGSearch,RAG,6,Intermediate,CORE,"Python, LangChain, LangGraph, Vector Stores, Retrieval-Augmented Generation (RAG), Semantic Chunking, UV, Large Language Models (LLMs), Interactive Web UI.",11
+45,Thunderstorm Forecasting with MLflow Tracking,Time Series / MLOps,6,Intermediate,OPTIONAL,"Python, MLflow, Streamlit, SMOTE, Joblib, Scikit-learn, MLOps, Machine Learning, Cloud Deployment.",12
+46,Notion ReAct Planner Agent,Agentic AI,7,Advanced,CORE,"Python, LangChain, Groq API, FastAPI, Notion API, Open-Meteo API, ReAct Agent, Prompt Engineering, HTML, JavaScript, REST APIs.",11
+47,AutoGen Data Analyzer GPT: Build an AI-Powered Data Analysis System,Agentic AI / Analytics,7,Advanced,OPTIONAL,"Python, Microsoft AutoGen, OpenAI GPT-4o, Prompt Engineering, Multi-Agent AI Systems, Automated Code Execution, Exploratory Data Analysis (EDA).",8
+48,YouTube Content Creation Agent,Agentic AI / Content,7,Advanced,ALTERNATIVE,"Python, Streamlit, Large Language Models (LLMs), Search APIs, REST APIs, Prompt Engineering, Agentic AI, Web Search Integration.",4
+49,Gen AI Powered Clothing Store with Pydantic AI,Agentic AI / Full Stack,7,Advanced,OPTIONAL,"Python, FastAPI, LangChain, Large Language Models (LLMs), AWS, GitHub Actions, CI/CD, REST APIs.",2
+50,"AWS Cost Optimizer Dashboard using Terraform, Lambda & API Gateway",Cloud / DevOps,7,Advanced,OPTIONAL,"Python, Streamlit, LangChain, OpenAI GPT-4o, AWS Lambda, API Gateway, Terraform, boto3, AWS, REST APIs.",2
+51,"AI-Powered Image Analyzer using Terraform, AWS Bedrock & Rekognition",Cloud / Multimodal AI,7,Advanced,OPTIONAL,"Python, AWS Lambda, API Gateway, Amazon S3, Amazon Rekognition, Amazon Bedrock, Terraform, AWS IAM, Serverless Architecture, Infrastructure as Code (IaC), REST APIs.",4
+52,End-to-End Realtime Flight Data Engineering with Airflow & Snowflake,Data Engineering,7,Advanced,CORE,"Python, Apache Airflow, Snowflake, SQL, Docker Compose, Docker, JSON, Medallion Architecture, ETL/Data Engineering.",2
+53,AI-Powered Heart Murmur Detection System,Deep Learning / Audio,7,Advanced,SPECIALIZED,,11
+54,Research-Based Cancer Detection with Explainable AI,Deep Learning / XAI,7,Advanced,ALTERNATIVE,,4
+55,Automated Candidate Interview & Evaluation System,Multimodal / Agentic AI,7,Advanced,OPTIONAL,"Python, Microsoft AutoGen, FastAPI, WebSockets, OpenAI GPT-4o, Asyncio, Multi-Agent AI Systems, REST APIs, HTML, JavaScript.",5
+56,Neural-Semantic Matching Protocol for Real-Time Applications,NLP / Semantic Search,7,Advanced,OPTIONAL,"ython, Model Context Protocol (MCP), Vector Databases, Semantic Search, Large Language Models (LLMs), Generative AI, Dense Vector Retrieval, REST APIs.",8
+57,Air India RAG Chatbot Development,RAG,7,Advanced,CORE,"Python, AWS Bedrock, RAG, LLMs, Prompt Engg., REST APIs, HTML, CSS, JS.",6
+58,Flipkart Product Recommender Chatbot with GCP,Recommender / RAG,7,Advanced,ALTERNATIVE,"LangGraph, RAG, GenAI, Vector Embeddings, Microservices, Docker, GCP, and Cloud Observability.",8
+59,Python Mega Project - Personal AI Voice Assistant System,Voice AI / Python,7,Advanced,SPECIALIZED,"Gemini 2.5 Flash, Google Gemini API, Speech Recognition / STT, Text-to-Speech / TTS, CLI, Web Frameworks, and Multilingual Audio Pipelines.",2
+60,AI-Powered Customer Support Agent with Memory and Tool Calling,Agentic AI,8,Advanced,CORE,"LangChain, Mem0, Function Calling, Pydantic, RAG, AWS, and CI/CD Pipelines",3
+61,Building Stateful Agentic AI with LangGraph and Llama 3,Agentic AI,8,Advanced,CORE," Python, LangGraph, Groq, Llama 3, Streamlit, HF Spaces, Stateful AI, Tool Calling, LLMs.",8
+62,Building an Autonomous Blog Generation Agent with LangGraph & FastAPI,Agentic AI,8,Advanced,OPTIONAL,"Python, LangGraph, LangSmith, FastAPI, Postman, UV, REST APIs, Stateful AI, LLMs.",7
+63,Google ADK: Build AI Agents and Deploy to the Cloud,Agentic AI / Cloud,8,Advanced,CORE,"Python, Google ADK, Streamlit, REST APIs, Google Cloud Run, Docker, Serverless, Google GenAI Models.",6
+64,Advanced AI GitHub PR Code Reviewer,Agentic AI / DevTools,8,Advanced,OPTIONAL,"Python, LangGraph, FastAPI, Celery, Redis, PostgreSQL, SQLAlchemy, asyncpg, Langfuse, Prometheus, Grafana, OWASP Top 10, Asyncio.",1
+65,"Automated AI-Powered AWS Threat Detection using CloudTrail, GuardDuty, Lambda and SNS",Cloud Security,8,Advanced,SPECIALIZED,"Python, AWS GuardDuty, AWS Lambda, Amazon EventBridge, Amazon SNS, Serverless, DevSecOps, Event-Driven Architecture.",4
+66,Kubernetes Penetration Testing & Benchmarking with Kube-Hunter & Kube-Bench,Cloud Security,8,Advanced,SPECIALIZED,"Python, Kubernetes (K8s), Minikube, KubeHunter, KubeBench, RBAC, CIS Benchmark, Penetration Testing, DevSecOps, MLOps.",8
+67,End-to-End Tumor Detection with XAI and GCP,Deep Learning / CV,8,Advanced,ALTERNATIVE,,2
+68,"Object Detection with Faster R-CNN, DVC, TensorBoard, FastAPI & Postman",Deep Learning / MLOps,8,Advanced,CORE,,5
+69,MLOps Jenkins Shared Library CI-CD Project,MLOps,8,Advanced,CORE,"Jenkins, Groovy, Docker, Docker Hub, Kubernetes (K8s), Minikube, GCP, CI/CD, DevOps.",5
+70,Pipecat AI Interview Coach: Real-Time Voice Interaction,Voice AI / Agentic AI,8,Advanced,OPTIONAL,"Python, Pipecat, WebRTC, STT, TTS, LLMs, FastAPI, REST APIs, Voice AI, Multimodal AI.",9
+71,Realtime Voice AI Agent with RAG,Voice AI / RAG,8,Advanced,OPTIONAL,"Python, WebSockets, RAG, Pinecone/Qdrant, Deepgram/Whisper, Groq, ElevenLabs, STT, TTS, VAD, LLMs.",5
+72,"Enterprise Advanced RAG with Hybrid Search, Reranking, HyDE, CRAG, Self-RAG, Text2SQL, Caching & Guardrails",Advanced RAG,9,Expert,CORE,"Python, LangGraph, Kubernetes (K8s), Redis, Text2SQL, LLMs, Guardrails, Hybrid Search, Agentic AI.",1
+73,AI Travel Itinerary Planner with Kubernetes & GCP,Agentic AI / Cloud,9,Expert,STRETCH,"Python, LangChain, Streamlit, Docker, Kubernetes (GKE), GCP, Serper/Tavily APIs, ELK Stack, Kibana, LLMOps, LLMs.",8
+74,MCP with AutoGen: Integrating AI Agents with Notion,Agentic AI / MCP,9,Expert,STRETCH,"Python, MCP, Microsoft AutoGen, Flask, Notion API, ngrok, REST APIs, Multi-Agent AI, LLMs.",8
+75,Insurance Claim Support AI Agent with LangMem and RAG,Agentic AI / RAG,9,Expert,CORE,"Python, LangMem, FastAPI, Docker, AWS, CI/CD, Tool Calling, Agentic AI, LLMs.",3
+76,"AI-Powered Web Application with LLM Fine-Tuning, CI/CD Automation and Vibe-Coding",LLMOps / Full Stack,9,Expert,STRETCH,"Python, Azure AI Foundry, React, AWS S3, AWS CodePipeline, CI/CD, LLMs, Fine-Tuning.",3
+77,SwarmAI: Build a Multi-Agent Personal Assistant,Multi-Agent AI,9,Expert,STRETCH,"Python, JavaScript, n8n, OAuth2, Gmail API, Google Calendar API, Telegram Bot API, Webhooks, OpenAI Whisper, STT, TTS, Multi-Agent AI, LLMs.",7
+78,Multi-Agent Quantitative Analysis System with Azure Cloud Integration,Multi-Agent AI / Quant,9,Expert,STRETCH,"Python, CrewAI, FastAPI, Streamlit, Azure PostgreSQL, Azure Blob Storage, PostgreSQL, Azure, REST APIs, Pydantic, Multi-Agent AI.",6
+79,"Production-Grade Advanced RAG with LangGraph, GCP and Groq",Advanced RAG,10,Expert,STRETCH,"Python, LangGraph, Groq, RAG, GCP, Semantic Re-ranking, LLMs, Conversational AI.",1
+80,Azure Multi-Modal Compliance Orchestration Engine using LangGraph & LangSmith,Multimodal / Agentic AI,10,Expert,STRETCH,"Python, LangGraph, Azure OpenAI, Azure AI Search, Azure Video Indexer, LangSmith, Azure App Insights, RAG, GPT-4o, JSON, LLMs.",7

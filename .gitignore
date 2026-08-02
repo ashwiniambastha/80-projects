@@ -1,13 +1,1 @@
-14.Chest Disease Identification/End-to-End-Chest-Disease.zip
-
-/14.Chest Disease Identification/End-to-End-Chest-Disease.zip
-06. Drinks Quality Prediction System/Drinks-Quality-Prediction-System
-14.Chest Disease Identification/End-to-End-Chest-Disease
-06. Drinks Quality Prediction System/Drinks-Quality-Prediction-System
-
-# Secrets - never commit real env files
-**/.env
-!**/.env.example
-
-# Exceeds GitHub's 100MB file size limit
-53. AI-Powered Heart Murmur Detection System/all source code.rar
+49. YouTube Content Creation Agent/all-utils/.env
